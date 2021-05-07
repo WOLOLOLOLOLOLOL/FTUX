@@ -27,166 +27,186 @@
 </head>
 
 <body>
-    <!-- header starts here -->
-    <header style="border: 1px solid red;">
-        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
-        <nav>
-            <a href="#"> About</a>
-            <a href="#"> Features</a>
-            <a href="#"> Contact</a>
-        </nav>
-    </header>
-    <!-- header stops here  -->
+        <!-- header starts here -->
+        <header class="container">
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
+            <nav>
+                <a href="#" class="menu"> About</a>
+                <a href="#features" class="menu"> Features</a>
+                <a href="#" class menu> Contact</a>
+                <a href="docs/ina_CV.pdf" class="button-link"> Download CV</a>
+            </nav>
+        </header>
+        <!-- header stops here  -->
 
     <!-- hero start  -->
-    <section id="hero">
-        <h1>heading 1</h1> 
-        <p>paragraph <strong>Hello</strong></p>
-    <button>This is the CTA button</button>  
-    </section>
-<!-- hero end -->
+        <section id="hero" class="container">
+            <h1>heading 1</h1> 
+            <p>paragraph <strong>Hello</strong></p>
+        <button>This is the CTA button</button>  
+        </section>
+    <!-- hero end -->
 
-<!-- Blog starts  -->
-    <section> 
-        <article class="home-article">
-            <img src="/try/img/ben-kelsey-X3GXK5AA-3k-unsplash.jpg" class=" img-article">
-            <h3>Title - article 1</h3>
-            <p>description</p> 
-            <div>
-                <img src= "/try/img/avatar_01.png" alt="Photo of author"> 
-                <p>author name</p> 
-            </div>
-            
-        </article> 
+    <!-- Blog articles  starts  -->
+        <section id="articles" class="container"> 
+            <article class="home-article">
+                <img src="/try/img/ben-kelsey-X3GXK5AA-3k-unsplash.jpg" class="img-article">
+                <h3>Title - article 1</h3>
+                <p>description</p> 
+                <div class="container author-container">
+                    <img src= "/try/img/avatar_01.png" alt="Photo of author" class ="author-image"> 
+                    <p>Author name</p> 
+                </div>
+            </article>
+            <article class="home-article">
+                <img src="/try/img/jon-tyson-WeK_Wc2b0Aw-unsplash.jpg" class = "img-article">
+                <h3>Title - article 2</h3>
+                <p>description</p> 
+                <div class="container author-container">
+                    <img src= "/try/img/avatar_02.png" alt="Photo of author" class ="author-image">
+                    <p>Author name</p> 
+                </div>
+            </article>
+            <article class="home-article">
+                <img src="/try/img/christin-hume-Hcfwew744z4-unsplash.jpg" class= "img-article">
+                <h3>Title - article 3</h3>
+                <p>description</p> 
+                <div class="container author-container">
+                    <img src= "/try/img/avatar_03.png" alt="Photo of author" class ="author-image">
+                    <p>Author name</p> 
+                </div>
+            </article>
+        </section>
+    <!-- blog artciles ends  -->
 
-        <article class="home-article">
-            <img src="/try/img/jon-tyson-WeK_Wc2b0Aw-unsplash.jpg" class=" img-article">
-            <h3>Title - article 2</h3>
-            <p>description</p> 
-            <div>
-                <img src= "/try/img/avatar_02.png" alt="Photo of author">
-                <p>author name</p> 
-            </div>
-            
-
-        </article>
-        <article class="home-article">
-            <img src="/try/img/jon-tyson-WeK_Wc2b0Aw-unsplash.jpg" class=" img-article">
-            <h3>Title - article 3</h3>
-            <p>description</p> 
-            <div>
-                <img src= "/try/img/avatar_03.png" alt="Photo of author">
-                <p>author name</p> 
-            </div>
-        </article>
-      
-
-    </section>
-<!-- blog ends  -->
-
-<!-- feature starts -->
-<section>
-    <!-- feature 1 starts  -->
-    <div>
-        <span class="icon-feature">
-            <i class="fas fa-air-freshener"></i>
-        </span>
-        <div>
-
-            <h4>Feature 1</h4> 
-            <p>Feat description</p>
-        </div>
-    </div>
-  <!-- feature 1 ends  -->
-
-  <!-- feature 2 starts  -->
-    <div>
-        <span class="icon-feature">
-            <i class="fas fa-atom"></i>
-        </span>
-        <div>
-            <h4>Feature 2</h4> 
-            <p>Feat description</p>
-    </div>
-
-<!-- feature 2 ends  -->
-
-<!-- feature 3 starts  -->
-
-    <div>
-        <span class="icon-feature">
-            <i class="fas fa-fish"></i>
-        </span>
-        <div>
-
-            <h4>Feature 3</h4> 
-            <p>Feat description</p>
-
-           
-        </div>
-    </div>
-
-<!-- feature 3 ends  -->
-
-<!-- feature 4 starts  -->
-
-        <div>
+    <!-- feature starts -->
+    <section id="features" class="container">
+        <!-- feature 1 starts  -->
+        <div class="container feature-card">
             <span class="icon-feature">
-                <i class="fas fa-peace"></i>
+                <i class="fas fa-air-freshener"></i>
             </span>
             <div>
-
-                <h4>Feature 4</h4> 
+                <h4>Super fresh</h4> 
                 <p>Feat description</p>
-
             </div>
         </div>
-<!-- feature 3 ends  -->
-</section>
+    <!-- feature 1 ends  -->
 
-<!-- feature ends -->
+    <!-- feature 2 starts  -->
+        <div class="container feature-card">
+            <span class="icon-feature">
+                <i class="fas fa-atom"></i>
+            </span>
+            <div>
+                <h4>Atomic design</h4> 
+                <p>Feat description</p>
+            </div>
+        </div>
+
+    <!-- feature 2 ends  -->
+
+    <!-- feature 3 starts  -->
+
+        <div class="container feature-card">
+            <span class="icon-feature ">
+                <i class="fas fa-fish"></i>
+            </span>
+            <div>
+                <h4>Fish</h4> 
+                <p>Feat description</p>
+            </div>
+        </div>
+
+    <!-- feature 3 ends  -->
+
+    <!-- feature 4 starts  -->
+
+            <div class="container feature-card">
+                <span class="icon-feature">
+                    <i class="fas fa-peace"></i>
+                </span>
+                <div>
+                    <h4>Peace</h4> 
+                    <p>Feat description</p>
+                </div>
+            </div>
+
+    <!-- feature 3 ends  -->
+    </section>
+
+    <!-- feature ends -->
 
 
-  
-<!-- contact  -->
- <section>
-    <h3>Contact</h3>
-    <div>
-        <form action="#">
-            <input type="text"> Form name <br><br>
-            <input type="email"> Email<br><br>
-            <textarea rows="5" cols="50"> Write your message </textarea><br><br>
-            <input type="submit" value="Send Message">
-        </form>
-    </div>
- </section>
-<!-- contact end  -->
+    
+    <!-- contact  -->
+    <section id="contact" class="container">
+        <div class="contact-30">
+            <h3>Contact</h3>
+        </div>
+        <div class="contact-70">
+            <form action="#">
+                <label for= "name"> name</label><br>
+                <input id="name" type="text" placeholder="Bloody idiot">
 
-<!-- Footer starts  -->
-<section>
-<p>
-<footer>
-    <div>
-        <a href= "#">About</a>
-        <a href= "#">Features</a>
-        <a href= "mailto:leophilippe78@gmail.com">Email</a>
-        <a href= "tel:+3300223344">Phone</a>
-    </div>
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input id="email" type="email" placeholder="Bloodyidiot@gmail.com">
+
+                <br><br>
+
+                <label for="message"> write your message</label><br>
+                <textarea rows="5" cols="50" placeholder="here is the placeholder"></textarea>
+                
+                <br><br>
+
+                <input type="checkbox" value="terms">
+                <label for="terms"> I accept being a bloddy idiot</label>
+
+                <br><br>
+
+                <input type="submit" value="send message">
+
+                <!-- <br><br>
+                
+                <input type="date">
+
+                <br><br>
+
+                <input type="password">
+
+                <br><br>
+
+                <input type="password" -->
+
+            </form>
+        </div>
+    </section>
+    <!-- contact end  -->
+
+    <!-- Footer starts  -->
+    <footer class="container">
+        <div>
+            <a href= "#">About</a><br>
+            <a href= "#">Features</a><br>
+            <a href= "mailto:leophilippe78@gmail.com">Email</a><br>
+            <a href= "tel:+3300223344">Phone</a>
+        </div>
 
 
-    <div>
-        <h5> Follow us</h5> 
-        <a href= "https://www.instagram.com/lennyfromBron" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href= "https://www.facebook.com/lennyfromBron"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href= "https://www.twitter.com/lennyfromBron"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href= "https://www.twitter.com/lennyfromBron"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href= "https://www.twitter.com/lennyfromBron"><i class="fab fa-behance fa-2x"></i></a>
-    </div>
+        <div>
+            <h5>Follow us</h5> 
+            <a href= "https://www.instagram.com/lennyfromBron" target="_blank"><span class="icon-social"><i class="fab fa-instagram fa-2x"></i></span></a>
+            <a href= "https://www.facebook.com/lennyfromBron"><span class="icon-social"><i class="fab fa-facebook fa-2x"></span></i></a>
+            <a href= "https://www.twitter.com/lennyfromBron"><span class="icon-social"><i class="fab fa-twitter fa-2x"></i></span></a>
+            <a href= "https://www.twitter.com/lennyfromBron"><span class="icon-social"><i class="fab fa-twitter fa-2x"></span></i></a>
+            <a href= "https://www.twitter.com/lennyfromBron"><span class="icon-social"><i class="fab fa-behance fa-2x"></span></i></a>
+        </div>
 
-</footer>
-</p>
-<!-- Footer ends  -->
-</section>
+    </footer>
+    <!-- Footer ends  -->
 
-</body>
+
+    </body>
 </html>
