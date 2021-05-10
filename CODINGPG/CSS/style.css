@@ -1,0 +1,163 @@
+* {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+body {
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Antonio', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+    color: red;
+    stroke: black;
+    stroke-width: 100%;
+    margin-block: 0.2em;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-block: 0.5em;
+}
+
+h5{
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+
+h6{
+    font-size: 0.6rem;
+}
+
+/*Links */
+
+a:link {
+    color:whitesmoke;
+}
+a:hover {
+    background-color: red;
+    color: black;
+}
+
+a:visited {
+    color: slategray;
+}
+a:active {
+    color: slateblue
+}
+
+
+
+p{
+    color: black;
+}
+
+section {
+    background-color: black; 
+}
+
+header {
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+
+header nav a {
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+/*CLASS*/
+
+
+
+.home-portfolio {
+    /* border: 10px solid whitesmoke; */
+    border-radius: 16px;
+    background-color: whitesmoke;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.img-article {
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+}
+
+.grandpalab-logo {
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+}
+.INQ-logo {
+    width: 40px;
+    height: 20px;
+    margin: 10px;
+}
+.bageiras-logo {
+    width: 30px;
+    height: 40px;
+    margin: 10px;
+}
+.flex-logo {
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.company-container {
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/*ID*/
+
+#Banner {
+    *background-color: black;
+    background-image: url('/CODINGPG/IMG/tumblr_lfgfoi9kFc1qg5ep5o1_500.jpg');
+    background-size: cover;
+    text-align: center;
+    /* height: 500px; */
+    height: 60vh;
+    /*Fex setting*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolio {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+

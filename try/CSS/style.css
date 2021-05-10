@@ -68,18 +68,18 @@ header nav a {
 
 /* Links */ 
 
-a:link {
-    color: slateblue;
-}
-a:hover {
-    background-color: wheat;
-}
-a:visited {
-    color: slategray;
-}
-a:active {
-    color: slateblue
-}
+        a:link {
+            color: slateblue;
+        }
+        a:hover {
+            background-color: wheat;
+        }
+        a:visited {
+            color: slategray;
+        }
+        a:active {
+            color: slateblue
+        }
 
 /* MENU LINKS */
 
